@@ -19,9 +19,9 @@ int main()
 	}
 	while (sair != 's')
 	{
-		cout << "digite um número para saber sua namorada";
+		cout << "digite um nÃºmero para saber sua namorada";
 		cin >> n;
-		cout << "A namorada " << n << " é a " << namoradas[n - 1] << " e o seu apelido é " << apelidos[n - 1] << ".";
+		cout << "A namorada " << n << " Ã© a " << namoradas[n - 1] << " e o seu apelido Ã© " << apelidos[n - 1] << ".";
 		cout << "\ndeseja sair? (s/n) ";
 		cin >> sair;
 	}
